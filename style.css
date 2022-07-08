@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(236, 227, 227);
+}
+/* links href */
+a{
+    text-decoration: none;
+    color: rgb(77, 83, 92);
+}
+/* container  */
+.container{
+    width: 950px;
+    margin: 5% auto;
+}
+
+.main-left , .main-right{
+display: inline-block;
+vertical-align: top;
+text-align: center;
+}
+/* register-form */
+.register-form, .switch-page{
+background-color: #fff;
+border: rgb(230, 226, 226) solid 1px;
+padding: 40px;
+}
+
+.register-form form input{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: solid 1px rgb(184, 177, 177);
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+.register-form form input:last-of-type{
+    background-color: rgb(81, 146, 231);
+    color: #fff;
+    border-radius: 6.5px;
+    margin-top: 17.5px;
+
+}
+.register-form  p:first-of-type{
+    font-size: 16px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register-form p a{
+    font-weight: bold;
+
+}
+.register-form p:last-of-type{
+    color: gray;
+   
+}
+/* switch-page link */
+.switch-page p a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.switch-page{
+    padding: 20px;
+}
+/* main right div */
+.main-right div{
+    margin-bottom: 10px;
+}
+/* app links */
+.app-links img{
+    width: 181.5px;
+}
+.main-left{
+    width: 60%;
+    padding-top: 20px;
+}
+.main-right{
+    width: 39%;
+}
+/* main */
+.main{
+    margin-top: 65px;
+}
+.footer div{
+    text-align: center;
+}
+.footer a{
+    margin-right: 10px;
+}
+.link1{
+    margin-bottom: 10px;
+}
+
+.link2{
+    margin-bottom: 20px;
+}
+.link3 span{
+    color: rgb(30, 105, 30);
+    font-weight: bold;
+}
